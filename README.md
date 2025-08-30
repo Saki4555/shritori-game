@@ -1,13 +1,26 @@
-# React + Vite
+# Shiritori Simplified
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Shiritori word game made with React.  
+Two players take turns to write words. Each word must be valid and follow the rules. Players get points, and there is a countdown timer for each turn.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Two players take turns
+- Countdown timer for each turn
+- Words are checked using a dictionary API
+- Words must be at least 4 letters
+- Cannot repeat words
+- Keeps track of player scores
+- Shows history of used words
+- Shows errors for wrong words
+- Simple UI with colors and animations
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# shritori-game
+## Project Setup
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/yourusername/shiritori-game.git
+   cd shiritori-game
