@@ -121,7 +121,7 @@ const ShiritoriGame = () => {
 
         {/* form */}
         <div>
-          <p className={`${activePlayer === 1 ? "text-indigo-200" : "text-purple-100"}`}>{activePlayer === 1 ? "PLayer 1 turn" : "Player 2 turn"}</p>
+          <p className={`${activePlayer === 1 ? "text-indigo-400" : "text-purple-400"} font-semibold`}>{activePlayer === 1 ? "PLayer 1 turn" : "Player 2 turn"}</p>
         </div>
         <form onSubmit={handleSubmit}>
           <input
