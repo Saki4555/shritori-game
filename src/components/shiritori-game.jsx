@@ -113,8 +113,8 @@ const ShiritoriGame = () => {
             <p>Score: {players[0].score}</p>
           </div>
           <div className={`p-10 bg-purple-700/30 border-indigo-100/40 rounded-md border text-white ${activePlayer === 2 && "animate-pulse"}`}>
-            <h3>Player 1</h3>
-            <p>Score: {players[0].score}</p>
+            <h3>Player 2</h3>
+            <p>Score: {players[1].score}</p>
           </div>
         </div>
         <p className={`${countdownTime< 5 ? "text-red-500" : "text-green-500"} font-bold text-lg`}>{countdownTime}</p>
